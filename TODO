@@ -1,0 +1,5 @@
+Esenciales:
+  Corregir dependencias de USB
+  Eliminar todo lo relacionado a Windows
+  Eliminar todas las herramientas de Android en favor de las instaladas globalmente
+  Mejorar README explicando soporte para Huayra-Primaria-Terminal
