@@ -16,7 +16,7 @@ El proyecto para compilar correctamente necesita:
     * libusb-dev
 
 Cumpliendo estos requisitos no debería hacer más que ejecutar:
-    ./buil.sh
+    ./build.sh
 
 
 Minibloq v0.84.0
