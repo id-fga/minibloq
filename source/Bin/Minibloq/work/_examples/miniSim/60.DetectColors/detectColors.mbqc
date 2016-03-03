@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mbqc xmlns="http://mbqc.namespaces.minibloq.org" xmlns:minibloq="http://minibloq.org" MinibloqVersion="0.82.Beta">
+    <files/>
+    <properties>
+        <canvas visible="true"/>
+        <blocks count="33"/>
+    </properties>
+    <variables>
+        <angle/>
+        <side/>
+    </variables>
+    <blocks>
+        <ComponentStart function="Flow" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="noLoad"/>
+        <VariableInit function="Setter" commented="false" constantValue="angle" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <numberConstant function="Constant" commented="false" constantValue="90" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </VariableInit>
+        <VariableInit function="Setter" commented="false" constantValue="side" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <numberConstant function="Constant" commented="false" constantValue="200" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </VariableInit>
+        <Comment function="Code" commented="false" constantValue="Draw a multicolor square:" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotPenWidthSetter function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="30" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotPenWidthSetter>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotPenDown function="Setter" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotPenColorSetter function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <colorRed function="Constant" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotPenColorSetter>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotMove function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <VariableGetter function="Getter" commented="false" instanceName="side" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotMove>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotRotate function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <VariableGetter function="Getter" commented="false" instanceName="angle" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotRotate>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotPenColorSetter function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <colorBlue function="Constant" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotPenColorSetter>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotMove function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <VariableGetter function="Getter" commented="false" instanceName="side" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotMove>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotRotate function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <VariableGetter function="Getter" commented="false" instanceName="angle" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotRotate>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotPenColorSetter function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <colorBlack function="Constant" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotPenColorSetter>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotMove function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <VariableGetter function="Getter" commented="false" instanceName="side" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotMove>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotRotate function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <VariableGetter function="Getter" commented="false" instanceName="angle" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotRotate>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotPenColorSetter function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <colorGreen function="Constant" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotPenColorSetter>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotMove function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <VariableGetter function="Getter" commented="false" instanceName="side" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotMove>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotRotate function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <VariableGetter function="Getter" commented="false" instanceName="angle" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotRotate>
+        </MobileRobot>
+        <Comment function="Code" commented="false" constantValue="Position the robot to go to the square:" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotPenUp function="Setter" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotMove function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberAdd function="Operation" commented="false" paramsCount="2" hasAddParamsButton="true" loadAction="load">
+                    <VariableGetter function="Getter" commented="false" instanceName="side" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+                    <numberConstant function="Constant" commented="false" constantValue="50" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+                </numberAdd>
+            </MobileRobotMove>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotRotate function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <VariableGetter function="Getter" commented="false" instanceName="angle" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotRotate>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotMove function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberDiv function="Operation" commented="false" paramsCount="2" hasAddParamsButton="false" loadAction="load">
+                    <VariableGetter function="Getter" commented="false" instanceName="side" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+                    <numberConstant function="Constant" commented="false" constantValue="2" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+                </numberDiv>
+            </MobileRobotMove>
+        </MobileRobot>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotRotate function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <VariableGetter function="Getter" commented="false" instanceName="angle" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotRotate>
+        </MobileRobot>
+        <repeat function="Flow" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <numberConstant function="Constant" commented="false" constantValue="20" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </repeat>
+        <if function="Flow" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <colorEqual function="Operation" commented="false" paramsCount="2" hasAddParamsButton="false" loadAction="load">
+                <MobileRobotColorSensor function="Getter" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+                <colorGreen function="Constant" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </colorEqual>
+        </if>
+        <Print function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <PrintText function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <textConstant function="Constant" commented="false" constantValue="Green color detected!" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </PrintText>
+        </Print>
+        <endIf function="Flow" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="brother"/>
+        <if function="Flow" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <colorEqual function="Operation" commented="false" paramsCount="2" hasAddParamsButton="false" loadAction="load">
+                <MobileRobotColorSensor function="Getter" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+                <colorBlue function="Constant" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </colorEqual>
+        </if>
+        <Print function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <PrintText function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <textConstant function="Constant" commented="false" constantValue="Blue color detected!" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </PrintText>
+        </Print>
+        <endIf function="Flow" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="brother"/>
+        <MobileRobot function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MobileRobotMove function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="5" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MobileRobotMove>
+        </MobileRobot>
+        <repeatEnd function="Flow" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="brother"/>
+    </blocks>
+</mbqc>

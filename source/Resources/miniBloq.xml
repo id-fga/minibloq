@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<miniBloq>
+    <mainFrame>
+        <maximized>true</maximized>
+        <centered>true</centered>
+    </mainFrame>
+    <hard>
+        <board>AERobot v1.0</board>
+        <port>HID2</port>
+    </hard>
+    <terminal>
+        <tab>single</tab>
+        <showEmoticons>true</showEmoticons>
+        <baudrate>115200</baudrate>
+    </terminal>
+    <properties>
+        <language>English</language>
+        <profile>user</profile>
+    </properties>
+    <canvas>
+        <zoom>3</zoom>
+    </canvas>
+    <code>
+        <zoom>3</zoom>
+    </code>
+    <help>
+        <tab>main</tab>
+    </help>
+</miniBloq>

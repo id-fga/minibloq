@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1443452825 source:/home/alumno/v0.83/source/Bin/Minibloq/tools/hidUploader/v2.0/_src/win/source/ihex.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+	<unistd.h>
+	"ihex.h"
+
+1443452825 /home/alumno/v0.83/source/Bin/Minibloq/tools/hidUploader/v2.0/_src/win/source/ihex.h
+
+1444334057 source:/home/alumno/v0.83/source/Bin/Minibloq/tools/hidUploader/v2.0/_src/win/source/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+	<unistd.h>
+	"ihex.h"
+	"usb_XXX.h"
+	<conio.h>
+	<windows.h>
+
+1444334029 /home/alumno/v0.83/source/Bin/Minibloq/tools/hidUploader/v2.0/_src/win/source/usb_XXX.h
+
+1443452825 source:/home/alumno/v0.83/source/Bin/Minibloq/tools/hidUploader/v2.0/_src/win/source/usb_WINDOWS.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+	<unistd.h>
+	"usb_XXX.h"
+	<windows.h>
+	<setupapi.h>
+	<ddk/hidsdi.h>
+	<ddk/hidclass.h>
+
+1443543040 source:/home/alumno/v0.83/source/Bin/Minibloq/tools/hidUploader/v2.0/_src/win/source/usb_LINUX.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+	<unistd.h>
+	"usb_XXX.h"
+	<usb.h>
+

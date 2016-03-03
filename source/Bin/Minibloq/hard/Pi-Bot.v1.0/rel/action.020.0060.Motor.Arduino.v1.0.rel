@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rel xmlns="http://rel.namespaces.minibloq.org" xmlns:minibloq="http://minibloq.org" MinibloqVersion="0.82.Beta">
+	<includePaths>
+		<include><s>libsPath::</s><s>/Arduino/Mot8833/v1.0</s></include>
+	</includePaths>
+	<includeFiles>
+		<include><s>Mot8833.h</s></include>
+	</includeFiles>
+	<instancesHeader>
+		<s>extern Mot8833 motor0;</s>
+		<s>extern Mot8833 motor1;</s>
+	</instancesHeader>
+	<instancesCode>
+		<s>Mot8833 motor0(3, 5);</s>
+		<s>Mot8833 motor1(6, 11, false);</s>
+	</instancesCode>
+	<instances>
+		<motor0 instanceType="Motor"/>
+		<motor1 instanceType="Motor"/>
+	</instances>
+</rel>

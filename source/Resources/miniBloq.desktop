@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.84.0
+Name=miniBloq
+GenericName=miniBloq
+Exec=/opt/minibloq/v0.84.0/bin/mbq/Minibloq
+Icon=/usr/share/icons/minibloq/Minibloq.png
+Terminal=false
+Type=Application
+Categories=Development;Huayra
